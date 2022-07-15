@@ -35,5 +35,12 @@ public class loops {
 		System.out.println(count);
 		System.out.println("sum =" + sum);
 		
+		System.out.println("");
+		int num = 0;
+		while( num <= 5) {
+			System.out.println(num);
+			num++;
+		}
+		
 	}
 }
