@@ -8,6 +8,7 @@ public class Calculator {
 			p=sc.nextInt();
 			System.out.println("Enter the Second Number:");
 			q=sc.nextInt();
+			
 			System.out.println("Enter: a for Addition \nEnter: b for Subtraction \nEnter: c for multiplication \nEnter: d for division");
 			char operator=sc.next().charAt(0);
 			switch(operator) {
