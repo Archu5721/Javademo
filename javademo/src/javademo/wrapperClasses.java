@@ -7,6 +7,7 @@ public class wrapperClasses {
 		Integer var = 10;
 		Integer z = new Integer(9);
 		int var1;
+		System.out.println(var);
 		//Autoboxing
 		var = x;
 		var1 = z.intValue();//explicit boxing
