@@ -6,6 +6,7 @@ public class superTest {
 		c.display();
 		child c1 = new child(23,34);
 		c1.display();
+		
 	}
 
 }
