@@ -6,7 +6,7 @@ public class Child extends Parent{
 		System.out.println("Child : No args");
 	}
 	Child(int b){
-		super(5);
+		super();
 		this.b=b;
 		System.out.println("Child : one args");
 	}
