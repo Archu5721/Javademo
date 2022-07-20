@@ -1,3 +1,4 @@
+package method;
 
 public class methodv2 {
 	int number=15;

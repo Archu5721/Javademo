@@ -1,4 +1,4 @@
-
+package method;
 public class methodv1 {
 	int add(int a, int b) {
 		int x = a + b;
