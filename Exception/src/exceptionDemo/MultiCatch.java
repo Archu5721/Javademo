@@ -11,8 +11,8 @@ public class MultiCatch {
 			System.out.println("Input is required!!");
 		}catch(NumberFormatException e) {
 			System.out.println("Input should be a number.");
-		}
-		System.out.println("Program ended!!");
+		}finally {//will be executed irrespective of exception occurred / not and it is used to close the resources
+		System.out.println("Program ended!!");}
 		
 	}
 }
