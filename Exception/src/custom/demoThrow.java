@@ -1,16 +1,16 @@
-package throwDemo;
+package custom;
 
-
+//import javax.management.RuntimeErrorException;
 
 public class demoThrow {
 	public static void main(String[] args) {
-		int amount = 500;
+		int amount = 1500;
 		System.out.println("Amount withdrawing :" + amount);
 		try {
 			demoThrow obj = new demoThrow();
 			obj.withdrawAmount(amount, 4000);
 			System.out.println("Amount withdrawn");
-		}catch(RuntimeException ex) {
+		}catch(customException ex) {
 			System.out.println(ex.getMessage());
 		}
 		
@@ -19,7 +19,7 @@ public class demoThrow {
 	void withdrawAmount(int amount,int accountNumber) {
 		int balance = getBalance();
 		if(balance < amount) {
-			throw new RuntimeException("Insufficient amount");
+			throw new customException("Insufficient amount");
 		}
 	}
 	int getBalance() {
